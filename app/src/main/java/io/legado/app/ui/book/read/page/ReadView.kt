@@ -50,7 +50,7 @@ class ReadView(context: Context, attrs: AttributeSet) :
     val prevPage by lazy { PageView(context) }
     val curPage by lazy { PageView(context) }
     val nextPage by lazy { PageView(context) }
-    val defaultAnimationSpeed = 300
+    val defaultAnimationSpeed = 90
     private var pressDown = false
     private var isMove = false
     private var isPageMove = false
